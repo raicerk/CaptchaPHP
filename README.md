@@ -12,7 +12,7 @@ Para el uso del captcha se deben configurar dos páginas, la del form y la pági
 ####Parámetros y configuraciones:####
 
 
-- Pagina Form
+#####Pagina Form#####
 
 
 classInput: (Parámetro | Opcional) Corresponde a la clase css del input del captcha.
@@ -26,7 +26,7 @@ placeholder: (Parámetro | Opcional) Corresponde al texto a mostrarse al interio
 
 
 
-- Pagina Destino
+#####Pagina Destino#####
 
 
 redirige: (Parámetro | Opcional) Recibe un true o false, true indica que al encontrar error en el captcha

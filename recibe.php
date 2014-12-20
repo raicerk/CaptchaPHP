@@ -4,9 +4,9 @@
 #--------------------------------------------------------------------
 include 'antispam/captcha.php';
 
-$captcha->redirige = false;
-$captcha->mensajeError = "Se ingreso mal el numero";
-$captcha->paginaerror = "index.php?error=errordecaptcha";
+$captcha->redirige = false;//true
+$captcha->mensajeError = "Se ingreso mal el numero"; //Solo se mostrar si redirige es false
+$captcha->paginaerror = "paginaerror.php"; // Solo se mostrara si redirige es true
 $captcha->ValidaCaptcha();
 #--------------------------------------------------------------------
 
